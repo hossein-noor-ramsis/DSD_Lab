@@ -1,0 +1,13 @@
+# Compile of Counter.v was successful.
+# Compile of OnePulser.v was successful.
+# Compile of SequenceDetector.v was successful.
+# Compile of SerialTransmitter.v was successful.
+# Compile of SSD.v was successful.
+# Compile of tb_counter.v was successful.
+# Compile of tb_one_pulser.v was successful.
+# Compile of tb_sequence_detector.v was successful.
+# Compile of tb_serial_transmitter.v was successful.
+# Compile of tb_ssd.v was successful.
+# Compile of Mux2To1.v was successful.
+# 11 compiles, 0 failed with no errors.
+project open {E:/Archive/Simister 4/DSD Lab/03/post/CA3}

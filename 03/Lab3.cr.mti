@@ -1,0 +1,78 @@
+{E:/Archive/Simister 4/DSD Lab/03/src/Counter.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/03/src/Counter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter
+
+Top level modules:
+	Counter
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/03/src/Mux2To1.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/03/src/Mux2To1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux2To1
+
+Top level modules:
+	Mux2To1
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/03/tb/tb_ssd.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/03/tb/tb_ssd.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_ssd
+
+Top level modules:
+	tb_ssd
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/03/src/OnePulser.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/03/src/OnePulser.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OnePulser
+
+Top level modules:
+	OnePulser
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/03/tb/tb_sequence_detector.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/03/tb/tb_sequence_detector.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_sequence_detector
+
+Top level modules:
+	tb_sequence_detector
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/03/src/SerialTransmitter.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/03/src/SerialTransmitter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SerialTransmitter
+
+Top level modules:
+	SerialTransmitter
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/03/src/SSD.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/03/src/SSD.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SSD
+
+Top level modules:
+	SSD
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/03/tb/tb_serial_transmitter.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/03/tb/tb_serial_transmitter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_serial_transmitter
+
+Top level modules:
+	tb_serial_transmitter
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/03/tb/tb_counter.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/03/tb/tb_counter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_counter
+
+Top level modules:
+	tb_counter
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/03/src/SequenceDetector.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/03/src/SequenceDetector.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SequenceDetector
+
+Top level modules:
+	SequenceDetector
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/03/tb/tb_one_pulser.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/03/tb/tb_one_pulser.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_one_pulser
+
+Top level modules:
+	tb_one_pulser
+
+} {} {}}

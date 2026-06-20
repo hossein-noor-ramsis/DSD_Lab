@@ -1,0 +1,363 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/Programming/Verilog/CA/CA1
+vCounter
+Z0 !s110 1781615997
+!i10b 1
+!s100 EMoz;5R]`M<?B:G69LhfM1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ii9=9o0jmBEX=66fCXH6I81
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dE:/Archive/Simister 4/DSD Lab/03
+w1780589772
+8E:/Archive/Simister 4/DSD Lab/03/src/Counter.v
+FE:/Archive/Simister 4/DSD Lab/03/src/Counter.v
+!i122 421
+L0 1 18
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1781615997.000000
+!s107 E:/Archive/Simister 4/DSD Lab/03/src/Counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/03/src/Counter.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@counter
+vhard_block
+Z8 !s110 1780598795
+!i10b 1
+!s100 GO[HSNCzVh4LdJ[S;<Ozb2
+R1
+I:jJ<mj=UHn1W1o7TPeKjL3
+R2
+R3
+w1780598783
+8E:/Archive/Simister 4/DSD Lab/03/simulation/modelsim/SerialTransmitterPost.vo
+FE:/Archive/Simister 4/DSD Lab/03/simulation/modelsim/SerialTransmitterPost.vo
+!i122 387
+L0 1133 34
+R4
+r1
+!s85 0
+31
+Z9 !s108 1780598795.000000
+!s107 E:/Archive/Simister 4/DSD Lab/03/simulation/modelsim/SerialTransmitterPost.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/03/simulation/modelsim/SerialTransmitterPost.vo|
+!i113 1
+R6
+R7
+vMux2To1
+Z10 !s110 1781615998
+!i10b 1
+!s100 L:gAWTa=FQignmS`d^_E62
+R1
+IETjdh?G6Y6`;A5mcP9E9T3
+R2
+R3
+w1780585548
+8E:/Archive/Simister 4/DSD Lab/03/src/Mux2To1.v
+FE:/Archive/Simister 4/DSD Lab/03/src/Mux2To1.v
+!i122 431
+L0 1 14
+R4
+r1
+!s85 0
+31
+Z11 !s108 1781615998.000000
+!s107 E:/Archive/Simister 4/DSD Lab/03/src/Mux2To1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/03/src/Mux2To1.v|
+!i113 1
+R6
+R7
+n@mux2@to1
+vOnePulser
+R0
+!i10b 1
+!s100 [9IchA7Poa?47iDOo4Pn[0
+R1
+ILFkBgBL65^B6jG6lBLfEm2
+R2
+R3
+w1780588518
+8E:/Archive/Simister 4/DSD Lab/03/src/OnePulser.v
+FE:/Archive/Simister 4/DSD Lab/03/src/OnePulser.v
+!i122 422
+L0 1 32
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/Archive/Simister 4/DSD Lab/03/src/OnePulser.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/03/src/OnePulser.v|
+!i113 1
+R6
+R7
+n@one@pulser
+vSequenceDetector
+R0
+!i10b 1
+!s100 M[Gz@hVTVGDgdig1KP0oL0
+R1
+IkTN1hF]CzoHj;mikFozX[2
+R2
+R3
+w1780588816
+8E:/Archive/Simister 4/DSD Lab/03/src/SequenceDetector.v
+FE:/Archive/Simister 4/DSD Lab/03/src/SequenceDetector.v
+!i122 423
+L0 1 96
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/Archive/Simister 4/DSD Lab/03/src/SequenceDetector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/03/src/SequenceDetector.v|
+!i113 1
+R6
+R7
+n@sequence@detector
+vSerialTransmitter
+R0
+!i10b 1
+!s100 h1=SbI[P10Q<KJ2N_[OGK1
+R1
+I?YjMhVbRbok`k4AVC3^zH2
+R2
+R3
+w1780588399
+8E:/Archive/Simister 4/DSD Lab/03/src/SerialTransmitter.v
+FE:/Archive/Simister 4/DSD Lab/03/src/SerialTransmitter.v
+!i122 424
+L0 1 71
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/Archive/Simister 4/DSD Lab/03/src/SerialTransmitter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/03/src/SerialTransmitter.v|
+!i113 1
+R6
+R7
+n@serial@transmitter
+vSerialTransmitterPost
+!s110 1780597027
+!i10b 1
+!s100 `GUI`FNLh@oF5z0j>?Q:43
+R1
+IP@mV99D8WZ1Mb>4G12?_F3
+R2
+R3
+w1780596132
+8E:/Archive/Simister 4/DSD Lab/03/src/SerialTransmitterPost.vo
+FE:/Archive/Simister 4/DSD Lab/03/src/SerialTransmitterPost.vo
+!i122 308
+L0 32 1100
+R4
+r1
+!s85 0
+31
+!s108 1780597027.000000
+!s107 E:/Archive/Simister 4/DSD Lab/03/src/SerialTransmitterPost.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/03/src/SerialTransmitterPost.vo|
+!i113 1
+R6
+R7
+n@serial@transmitter@post
+vSSD
+R0
+!i10b 1
+!s100 RUE=6e<MJi6a8@jEFi_zg3
+R1
+ITL`>UY6TFPnzz:WIWO<Q72
+R2
+R3
+w1780587703
+8E:/Archive/Simister 4/DSD Lab/03/src/SSD.v
+FE:/Archive/Simister 4/DSD Lab/03/src/SSD.v
+!i122 425
+L0 1 29
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/Archive/Simister 4/DSD Lab/03/src/SSD.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/03/src/SSD.v|
+!i113 1
+R6
+R7
+n@s@s@d
+vtb_counter
+R0
+!i10b 1
+!s100 PchieT;LnMWgEI1@1@`P00
+R1
+INSjlk<H>`MN6n8Cg9C:i`2
+R2
+R3
+w1780594938
+8E:/Archive/Simister 4/DSD Lab/03/tb/tb_counter.v
+FE:/Archive/Simister 4/DSD Lab/03/tb/tb_counter.v
+!i122 426
+L0 3 65
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/Archive/Simister 4/DSD Lab/03/tb/tb_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/03/tb/tb_counter.v|
+!i113 1
+R6
+R7
+vtb_one_pulser
+R10
+!i10b 1
+!s100 iAO@=3hl0R^OAXmFA^1fU0
+R1
+I]bo_id=aI_6kf1S]2VnNW1
+R2
+R3
+w1780594099
+8E:/Archive/Simister 4/DSD Lab/03/tb/tb_one_pulser.v
+FE:/Archive/Simister 4/DSD Lab/03/tb/tb_one_pulser.v
+!i122 427
+L0 3 57
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/Archive/Simister 4/DSD Lab/03/tb/tb_one_pulser.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/03/tb/tb_one_pulser.v|
+!i113 1
+R6
+R7
+vtb_sequence_detector
+R10
+!i10b 1
+!s100 EN1<1L3k;^PM2Cin<CF:b2
+R1
+IYdEn;H=OUfn^Yk;8R:P5>3
+R2
+R3
+w1780594564
+8E:/Archive/Simister 4/DSD Lab/03/tb/tb_sequence_detector.v
+FE:/Archive/Simister 4/DSD Lab/03/tb/tb_sequence_detector.v
+!i122 428
+L0 3 101
+R4
+r1
+!s85 0
+31
+R11
+!s107 E:/Archive/Simister 4/DSD Lab/03/tb/tb_sequence_detector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/03/tb/tb_sequence_detector.v|
+!i113 1
+R6
+R7
+vtb_serial_transmitter
+R10
+!i10b 1
+!s100 5cJgBKhFXGi1;c0Ghd?bo3
+R1
+IUCanCo>=_?bTBo3VOOboJ1
+R2
+R3
+w1780683207
+8E:/Archive/Simister 4/DSD Lab/03/tb/tb_serial_transmitter.v
+FE:/Archive/Simister 4/DSD Lab/03/tb/tb_serial_transmitter.v
+!i122 429
+L0 3 181
+R4
+r1
+!s85 0
+31
+R11
+!s107 E:/Archive/Simister 4/DSD Lab/03/tb/tb_serial_transmitter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/03/tb/tb_serial_transmitter.v|
+!i113 1
+R6
+R7
+vtb_serial_transmitter_1
+!s110 1780585776
+!i10b 1
+!s100 JXY1F5F?LgAFZ1AYoF2BY0
+R1
+IX_@1gda<iz6;Yzge>ZZRV2
+R2
+R3
+w1780585244
+8E:/Archive/Simister 4/DSD Lab/03/tb/tb_serial_transmitter_1.v
+FE:/Archive/Simister 4/DSD Lab/03/tb/tb_serial_transmitter_1.v
+!i122 65
+L0 3 93
+R4
+r1
+!s85 0
+31
+!s108 1780585776.000000
+!s107 E:/Archive/Simister 4/DSD Lab/03/tb/tb_serial_transmitter_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/03/tb/tb_serial_transmitter_1.v|
+!i113 1
+R6
+R7
+vtb_serial_transmitter_post
+R8
+!i10b 1
+!s100 a4K>TGIkA17=30DlmdaTY3
+R1
+IB9WVk@mdbCObUA8lO;Q6^0
+R2
+R3
+w1780598164
+8E:/Archive/Simister 4/DSD Lab/03/tb/tb_serial_transmitter_post.v
+FE:/Archive/Simister 4/DSD Lab/03/tb/tb_serial_transmitter_post.v
+!i122 386
+L0 3 118
+R4
+r1
+!s85 0
+31
+R9
+!s107 E:/Archive/Simister 4/DSD Lab/03/tb/tb_serial_transmitter_post.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/03/tb/tb_serial_transmitter_post.v|
+!i113 1
+R6
+R7
+vtb_ssd
+R10
+!i10b 1
+!s100 NRG`Y0>Jn;NNR5efClFe[0
+R1
+IZZfgVNM:GZEadhl[2o`232
+R2
+R3
+w1780684573
+8E:/Archive/Simister 4/DSD Lab/03/tb/tb_ssd.v
+FE:/Archive/Simister 4/DSD Lab/03/tb/tb_ssd.v
+!i122 430
+L0 3 124
+R4
+r1
+!s85 0
+31
+R11
+!s107 E:/Archive/Simister 4/DSD Lab/03/tb/tb_ssd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/03/tb/tb_ssd.v|
+!i113 1
+R6
+R7

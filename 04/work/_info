@@ -1,0 +1,380 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Archive/Simister 4/DSD Lab/04
+vamp_sel
+!s110 1781990501
+!i10b 1
+!s100 3OSJZDJY2G7<ZHcQ1z5_63
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IKoROD=k8Y7Sc713>??jX22
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1781990118
+8E:/Archive/Simister 4/DSD Lab/04/src/amp_sel.v
+FE:/Archive/Simister 4/DSD Lab/04/src/amp_sel.v
+!i122 16
+L0 1 11
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1781990501.000000
+!s107 E:/Archive/Simister 4/DSD Lab/04/src/amp_sel.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/04/src/amp_sel.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vamplitude_selector
+Z6 !s110 1781996546
+!i10b 1
+!s100 B:<@Ni=j]VZ0:Ci_jRWTV0
+R1
+Iiin<WWhE;6fK6P:D;_GoC3
+R2
+R0
+w1781991140
+8E:/Archive/Simister 4/DSD Lab/04/src/amplitude_selector.v
+FE:/Archive/Simister 4/DSD Lab/04/src/amplitude_selector.v
+!i122 245
+L0 1 20
+R3
+r1
+!s85 0
+31
+!s108 1781996545.000000
+!s107 E:/Archive/Simister 4/DSD Lab/04/src/amplitude_selector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/04/src/amplitude_selector.v|
+!i113 1
+R4
+R5
+vcounter8bit
+Z7 !s110 1781990232
+!i10b 1
+!s100 oa<=JUDhaW63:m9lFIn3G2
+R1
+IT3ZME>RHSRjl90ZnWdEWS3
+R2
+R0
+w1781987877
+8E:/Archive/Simister 4/DSD Lab/04/src/counter8bit.v
+FE:/Archive/Simister 4/DSD Lab/04/src/counter8bit.v
+!i122 1
+L0 1 10
+R3
+r1
+!s85 0
+31
+Z8 !s108 1781990232.000000
+!s107 E:/Archive/Simister 4/DSD Lab/04/src/counter8bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/04/src/counter8bit.v|
+!i113 1
+R4
+R5
+vDDS
+R6
+!i10b 1
+!s100 >XXIUIUb]KTf8]gJ5iKoG3
+R1
+IQJ8EWAVN?>zZ6>F?8Zod]1
+R2
+R0
+w1781996296
+8E:/Archive/Simister 4/DSD Lab/04/src/DDS.v
+FE:/Archive/Simister 4/DSD Lab/04/src/DDS.v
+!i122 246
+L0 1 45
+R3
+r1
+!s85 0
+31
+Z9 !s108 1781996546.000000
+!s107 E:/Archive/Simister 4/DSD Lab/04/src/DDS.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/04/src/DDS.v|
+!i113 1
+R4
+R5
+n@d@d@s
+vfreq_sel
+!s110 1781990505
+!i10b 1
+!s100 90[6:T@M4Sf;ZAOOHb9@e0
+R1
+Id?UPB<8RbbJ5oSCLJ<j5Z1
+R2
+R0
+w1781990113
+8E:/Archive/Simister 4/DSD Lab/04/src/freq_sel.v
+FE:/Archive/Simister 4/DSD Lab/04/src/freq_sel.v
+!i122 18
+L0 1 26
+R3
+r1
+!s85 0
+31
+Z10 !s108 1781990505.000000
+!s107 E:/Archive/Simister 4/DSD Lab/04/src/freq_sel.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/04/src/freq_sel.v|
+!i113 1
+R4
+R5
+vfrequency_selector
+R6
+!i10b 1
+!s100 9RRDl0mKG9:S1N]YBi6[31
+R1
+Ib_c4_19ZzbmB`<8a?8F_E2
+R2
+R0
+w1781992178
+8E:/Archive/Simister 4/DSD Lab/04/src/frequency_selector.v
+FE:/Archive/Simister 4/DSD Lab/04/src/frequency_selector.v
+!i122 247
+L0 1 36
+R3
+r1
+!s85 0
+31
+R9
+!s107 E:/Archive/Simister 4/DSD Lab/04/src/frequency_selector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/04/src/frequency_selector.v|
+!i113 1
+R4
+R5
+vfunction_generator_top
+R6
+!i10b 1
+!s100 9z=KAb<^hRg@7ealMbFj82
+R1
+I5?aDW@4`9NmH5o1FW<jJL3
+R2
+R0
+w1781992073
+8E:/Archive/Simister 4/DSD Lab/04/src/function_generator_top.v
+FE:/Archive/Simister 4/DSD Lab/04/src/function_generator_top.v
+!i122 248
+L0 1 35
+R3
+r1
+!s85 0
+31
+R9
+!s107 E:/Archive/Simister 4/DSD Lab/04/src/function_generator_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/04/src/function_generator_top.v|
+!i113 1
+R4
+R5
+vmux7_1
+R7
+!i10b 1
+!s100 2fE2bElGD1`F@?J[odYla3
+R1
+I_WEQcNdi_kYd??[mb3E7M2
+R2
+R0
+Z11 w1781989559
+Z12 8E:/Archive/Simister 4/DSD Lab/04/src/function_generator.v
+Z13 FE:/Archive/Simister 4/DSD Lab/04/src/function_generator.v
+!i122 4
+L0 82 20
+R3
+r1
+!s85 0
+31
+R8
+Z14 !s107 E:/Archive/Simister 4/DSD Lab/04/src/function_generator.v|
+Z15 !s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/04/src/function_generator.v|
+!i113 1
+R4
+R5
+vROM
+Z16 !s110 1781990506
+!i10b 1
+!s100 AP<`96]XK6[RoghUmg_el2
+R1
+ID?VP[e82cB>`0=WP::KI;3
+R2
+R0
+w1781990065
+8E:/Archive/Simister 4/DSD Lab/04/src/ROM.v
+FE:/Archive/Simister 4/DSD Lab/04/src/ROM.v
+!i122 19
+L0 1 15
+R3
+r1
+!s85 0
+31
+R10
+!s107 E:/Archive/Simister 4/DSD Lab/04/src/ROM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/04/src/ROM.v|
+!i113 1
+R4
+R5
+n@r@o@m
+vsine_mem
+!s110 1781991222
+!i10b 1
+!s100 GD^WPdn5iokOLUdalj3`00
+R1
+InnCO5U3lA8HUlmV64UGlL3
+R2
+R0
+w1781991093
+8E:/Archive/Simister 4/DSD Lab/04/src/sine_mem.v
+FE:/Archive/Simister 4/DSD Lab/04/src/sine_mem.v
+!i122 27
+Z17 L0 1 12
+R3
+r1
+!s85 0
+31
+!s108 1781991221.000000
+!s107 E:/Archive/Simister 4/DSD Lab/04/src/sine_mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/04/src/sine_mem.v|
+!i113 1
+R4
+R5
+vsine_rom
+R6
+!i10b 1
+!s100 f?JnhlU=;@R8ALRgj3LDG2
+R1
+I4VFz6EjMmELXmlL;OLYYN2
+R2
+R0
+w1781991296
+8E:/Archive/Simister 4/DSD Lab/04/src/sine_rom.v
+FE:/Archive/Simister 4/DSD Lab/04/src/sine_rom.v
+!i122 251
+R17
+R3
+r1
+!s85 0
+31
+R9
+!s107 E:/Archive/Simister 4/DSD Lab/04/src/sine_rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/04/src/sine_rom.v|
+!i113 1
+R4
+R5
+vtb_function_generator
+R6
+!i10b 1
+!s100 LfmB97mi@9??Y@ghe>iDB1
+R1
+IV0`RdO:><zdodYUKBe9Nz3
+R2
+R0
+w1781993031
+8E:/Archive/Simister 4/DSD Lab/04/tb/tb_function_generator.v
+FE:/Archive/Simister 4/DSD Lab/04/tb/tb_function_generator.v
+!i122 250
+L0 3 90
+R3
+r1
+!s85 0
+31
+R9
+!s107 E:/Archive/Simister 4/DSD Lab/04/tb/tb_function_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/04/tb/tb_function_generator.v|
+!i113 1
+R4
+R5
+vtb_top
+R16
+!i10b 1
+!s100 KfnO766jY>2fF:<0d25C@2
+R1
+IFBEEZonTB:diO8Z2jHKBe0
+R2
+R0
+w1781990487
+8E:/Archive/Simister 4/DSD Lab/04/tb/tb_top.v
+FE:/Archive/Simister 4/DSD Lab/04/tb/tb_top.v
+!i122 22
+L0 3 113
+R3
+r1
+!s85 0
+31
+Z18 !s108 1781990506.000000
+!s107 E:/Archive/Simister 4/DSD Lab/04/tb/tb_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/04/tb/tb_top.v|
+!i113 1
+R4
+R5
+vtop_module
+R16
+!i10b 1
+!s100 c@o]Td@:4`U41jl6f[]6L0
+R1
+IKHcCX[VK3Yc6ZY_IYeYmb1
+R2
+R0
+w1781990135
+8E:/Archive/Simister 4/DSD Lab/04/src/top_module.v
+FE:/Archive/Simister 4/DSD Lab/04/src/top_module.v
+!i122 20
+L0 1 33
+R3
+r1
+!s85 0
+31
+R18
+!s107 E:/Archive/Simister 4/DSD Lab/04/src/top_module.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/04/src/top_module.v|
+!i113 1
+R4
+R5
+vwaveform_generator
+R6
+!i10b 1
+!s100 zhWQb1cQNzZZ4@z;P0F_I3
+R1
+IOY_dFllb[Z4FbWKb3FFmA1
+R2
+R0
+w1781996542
+8E:/Archive/Simister 4/DSD Lab/04/src/waveform_generator.v
+FE:/Archive/Simister 4/DSD Lab/04/src/waveform_generator.v
+!i122 249
+L0 1 60
+R3
+r1
+!s85 0
+31
+R9
+!s107 E:/Archive/Simister 4/DSD Lab/04/src/waveform_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Archive/Simister 4/DSD Lab/04/src/waveform_generator.v|
+!i113 1
+R4
+R5
+vwaveform_generator_processor
+R7
+!i10b 1
+!s100 fO<=dM[a0hlkGmd=TY=B<3
+R1
+ISO=6h:>24`f]X@Vinh2]V1
+R2
+R0
+R11
+R12
+R13
+!i122 4
+L0 1 80
+R3
+r1
+!s85 0
+31
+R8
+R14
+R15
+!i113 1
+R4
+R5

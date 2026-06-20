@@ -1,0 +1,275 @@
+/*
+ Copyright (C) 2020  Intel Corporation. All rights reserved.
+ Your use of Intel Corporation's design tools, logic functions 
+ and other software and tools, and any partner logic 
+ functions, and any output files from any of the foregoing 
+ (including device programming or simulation files), and any 
+ associated documentation or information are expressly subject 
+ to the terms and conditions of the Intel Program License 
+ Subscription Agreement, the Intel Quartus Prime License Agreement,
+ the Intel FPGA IP License Agreement, or other applicable license
+ agreement, including, without limitation, that your use is for
+ the sole purpose of programming logic devices manufactured by
+ Intel and sold by Intel or its authorized distributors.  Please
+ refer to the applicable agreement for further details, at
+ https://fpgasoftware.intel.com/eula.
+*/
+MODELDATA
+/*MODELDATA HEADER*/
+/*
+ This file contains Slow Corner delays for the design using part EP4CE6E22C6
+ with speed grade 6, core voltage 1.2V, and temperature 0 Celsius
+
+*/
+DESIGN "SerialTransmitter";
+TIMESCALE "1ns";
+
+
+
+
+
+TIMINGDATA
+
+ARCDATA
+pos_clkPB__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.540");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.540");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_rst__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.021");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.021");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_serIn__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.547");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.547");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clkPB__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.215");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.215");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_rst__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("0.521");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("0.521");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_serIn__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.402");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.402");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__Seg[0]__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.143");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.143");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__Seg[1]__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.239");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.239");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__Seg[2]__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.393");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.393");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__Seg[3]__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.800");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.800");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__Seg[4]__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.950");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.950");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__Seg[5]__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.060");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.060");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__Seg[6]__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.051");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.051");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__SerOut__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.455");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.455");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__SerOutValid__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.529");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.529");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__count_out[0]__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.443");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.443");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__count_out[1]__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.505");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.505");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__count_out[2]__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.466");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.466");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__count_out[3]__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.490");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.490");
+}
+
+ENDARCDATA
+
+ARCDATA
+___6.262__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.004");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.004");
+}
+
+ENDARCDATA
+
+ENDTIMINGDATA
+
+ENDMODELDATA

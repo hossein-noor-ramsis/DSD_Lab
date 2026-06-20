@@ -1,0 +1,275 @@
+/*
+ Copyright (C) 2020  Intel Corporation. All rights reserved.
+ Your use of Intel Corporation's design tools, logic functions 
+ and other software and tools, and any partner logic 
+ functions, and any output files from any of the foregoing 
+ (including device programming or simulation files), and any 
+ associated documentation or information are expressly subject 
+ to the terms and conditions of the Intel Program License 
+ Subscription Agreement, the Intel Quartus Prime License Agreement,
+ the Intel FPGA IP License Agreement, or other applicable license
+ agreement, including, without limitation, that your use is for
+ the sole purpose of programming logic devices manufactured by
+ Intel and sold by Intel or its authorized distributors.  Please
+ refer to the applicable agreement for further details, at
+ https://fpgasoftware.intel.com/eula.
+*/
+MODELDATA
+/*MODELDATA HEADER*/
+/*
+ This file contains Slow Corner delays for the design using part EP4CE6E22C6
+ with speed grade 6, core voltage 1.2V, and temperature 85 Celsius
+
+*/
+DESIGN "SerialTransmitter";
+TIMESCALE "1ns";
+
+
+
+
+
+TIMINGDATA
+
+ARCDATA
+pos_clkPB__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.802");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.802");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_rst__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.113");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.113");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_serIn__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.904");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.904");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clkPB__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.433");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.433");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_rst__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("0.602");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("0.602");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_serIn__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.646");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.646");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__Seg[0]__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.842");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.842");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__Seg[1]__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.947");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.947");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__Seg[2]__delay:
+CELL_RISE( scalar ) {
+VALUES ("7.087");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("7.087");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__Seg[3]__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.463");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.463");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__Seg[4]__delay:
+CELL_RISE( scalar ) {
+VALUES ("7.751");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("7.751");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__Seg[5]__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.744");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.744");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__Seg[6]__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.756");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.756");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__SerOut__delay:
+CELL_RISE( scalar ) {
+VALUES ("7.151");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("7.151");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__SerOutValid__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.151");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.151");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__count_out[0]__delay:
+CELL_RISE( scalar ) {
+VALUES ("7.188");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("7.188");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__count_out[1]__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.098");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.098");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__count_out[2]__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.087");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.087");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__count_out[3]__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.084");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.084");
+}
+
+ENDARCDATA
+
+ARCDATA
+___7.138__delay:
+CELL_RISE( scalar ) {
+VALUES ("6.787");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("6.787");
+}
+
+ENDARCDATA
+
+ENDTIMINGDATA
+
+ENDMODELDATA

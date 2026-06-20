@@ -1,0 +1,95 @@
+{E:/Archive/Simister 4/DSD Lab/02/sol/src/freq_divider_113_display.vo} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/02/sol/src/freq_divider_113_display.vo}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module freq_divider_113_display
+-- Compiling module hard_block
+
+Top level modules:
+	freq_divider_113_display
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/02/sol/display.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/02/sol/display.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module display
+
+Top level modules:
+	display
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/02/sol/tb_freq_divider_113_ddf.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/02/sol/tb_freq_divider_113_ddf.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_freq_divider_113_ddf
+
+Top level modules:
+	tb_freq_divider_113_ddf
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/02/sol/tb/tb_lm_555_time_1k.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/02/sol/tb/tb_lm_555_time_1k.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_lm_555_timer_1k
+
+Top level modules:
+	tb_lm_555_timer_1k
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/02/sol/tb/tb_lm_555_time_10k.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/02/sol/tb/tb_lm_555_time_10k.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_lm_555_timer_10k
+
+Top level modules:
+	tb_lm_555_timer_10k
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/02/sol/tb/tb_lm_555_time_100k.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/02/sol/tb/tb_lm_555_time_100k.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_lm_555_timer_100k
+
+Top level modules:
+	tb_lm_555_timer_100k
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/02/sol/src/ring_oscillator.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/02/sol/src/ring_oscillator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ring_oscillator
+
+Top level modules:
+	ring_oscillator
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/02/sol/tb/tb_freq_divider_113.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/02/sol/tb/tb_freq_divider_113.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_freq_divider_113
+
+Top level modules:
+	tb_freq_divider_113
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/02/sol/src/freq_divider_113_ddf.vo} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/02/sol/src/freq_divider_113_ddf.vo}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module freq_divider_113_ddf
+-- Compiling module hard_block
+
+Top level modules:
+	freq_divider_113_ddf
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/02/sol/tb/tb_ring_oscillator.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/02/sol/tb/tb_ring_oscillator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_ring_oscillator
+
+Top level modules:
+	tb_ring_oscillator
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/02/sol/src/lm_555_timer.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/02/sol/src/lm_555_timer.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module lm_555_timer
+
+Top level modules:
+	lm_555_timer
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/02/sol/src/freq_divider_113.vo} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/02/sol/src/freq_divider_113.vo}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module freq_divider_113
+-- Compiling module hard_block
+
+Top level modules:
+	freq_divider_113
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/02/sol/tb/tb_freq_divider_113_ddf.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/02/sol/tb/tb_freq_divider_113_ddf.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_freq_divider_113_ddf
+
+Top level modules:
+	tb_freq_divider_113_ddf
+
+} {} {}}
