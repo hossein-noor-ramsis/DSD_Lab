@@ -6,7 +6,7 @@ module sine_rom (
 
   reg [7:0] mem[0:63];
 
-  initial $readmemb("sine.mem", mem);
+  initial $readmemb("E:/Archive/Simister 4/DSD Lab/04/tb/sine.mem", mem);
 
   always @(*) data = mem[addr];
 

@@ -1,13 +1,11 @@
-`timescale 1ns / 1ps
+`timescale 1ns / 1ns
 
-module tb_function_generator;
-
+module tb_function_generator;  // 3
   reg clk;
   reg rst;
-
   reg init;
-  reg [4:0] PI;
 
+  reg [4:0] PI;
   reg [2:0] func;
   reg [1:0] ampsel;
 
@@ -23,70 +21,84 @@ module tb_function_generator;
       .wave_out(wave_out)
   );
 
-  always #10 clk = ~clk;
+  always #10 clk = ~clk;  // 50 MHz
 
   initial begin
-
     $display("========================================================");
-    $display("time\tfunc\tampsel\tPI\twave_out");
+    $display("Complete Function Generator Test");
     $display("========================================================");
 
     clk = 0;
     rst = 1;
     init = 1;
-
     PI = 5'd10;
     ampsel = 2'b00;
     func = 3'b000;
 
+    #200;
+    rst = 0;
     #100;
-
-    rst  = 0;
     init = 0;
+    #1000;
 
-    func = 3'b000;  // reciprocal
-    #50000;
+    // Test all waveforms at PI=10
+    $display("\n--- PI=10, All Waveforms ---");
 
-    func = 3'b001;  // square
-    #50000;
+    $display("Reciprocal:");
+    func = 3'b000;
+    #5000000;
 
-    func = 3'b010;  // triangle
-    #50000;
+    $display("Square:");
+    func = 3'b001;
+    #5000000;
 
-    func = 3'b100;  // sine
-    #50000;
+    $display("Triangle:");
+    func = 3'b010;
+    #5000000;
 
-    func = 3'b101;  // full-wave
-    #50000;
+    $display("Sine:");
+    func = 3'b100;
+    #5000000;
 
-    func = 3'b110;  // half-wave
-    #50000;
+    $display("Full-wave:");
+    func = 3'b101;
+    #5000000;
+
+    $display("Half-wave:");
+    func = 3'b110;
+    #5000000;
+
+    // Test amplitudes with sine wave
+    $display("\n--- Amplitude Test (PI=10, Sine) ---");
+    func   = 3'b100;
+
+    ampsel = 2'b00;
+    #5000000;
 
     ampsel = 2'b01;
-    func   = 3'b100;
-    #50000;
+    #5000000;
 
     ampsel = 2'b10;
-    #50000;
+    #5000000;
 
     ampsel = 2'b11;
-    #50000;
+    #5000000;
 
+    // Test different frequency
+    $display("\n--- PI=3, Sine Wave ---");
     init = 1;
-    PI   = 5'd3;
-    #40;
+    PI = 5'd3;
+    ampsel = 2'b00;
+    #200;
     init = 0;
-
-    #50000;
+    #5000000;
 
     $stop;
-
   end
 
-  always begin
-    #100;
-
-    $display("%0t\t%b\t%b\t%d\t%d", $time, func, ampsel, PI, wave_out);
+  always @(posedge clk) begin
+    if ($time % 1000 == 0)
+      $display("t=%0t | func=%b | ampsel=%b | PI=%d | wave=%d", $time, func, ampsel, PI, wave_out);
   end
 
 endmodule

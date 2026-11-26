@@ -1,0 +1,78 @@
+{E:/Archive/Simister 5/CAD/CA/CA1/src/regfile.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 5/CAD/CA/CA1/src/regfile.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} {E:/Archive/Simister 5/CAD/CA/CA1/src/datapath.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 5/CAD/CA/CA1/src/datapath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} {E:/Archive/Simister 5/CAD/CA/CA1/src/accumulator.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 5/CAD/CA/CA1/src/accumulator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module accumulator
+
+Top level modules:
+	accumulator
+
+} {} {}} {E:/Archive/Simister 5/CAD/CA/CA1/src/relu.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 5/CAD/CA/CA1/src/relu.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module relu
+
+Top level modules:
+	relu
+
+} {} {}} {E:/Archive/Simister 5/CAD/CA/CA1/src/ping_pong_buffer.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 5/CAD/CA/CA1/src/ping_pong_buffer.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ping_pong_buffer
+
+Top level modules:
+	ping_pong_buffer
+
+} {} {}} {E:/Archive/Simister 5/CAD/CA/CA1/tb/tb_fcnn_top_2.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 5/CAD/CA/CA1/tb/tb_fcnn_top_2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_fcnn_top_2
+
+Top level modules:
+	tb_fcnn_top_2
+
+} {} {}} {E:/Archive/Simister 5/CAD/CA/CA1/src/fp16_multiplier.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 5/CAD/CA/CA1/src/fp16_multiplier.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fp16_multiplier
+
+Top level modules:
+	fp16_multiplier
+
+} {} {}} {E:/Archive/Simister 5/CAD/CA/CA1/src/argmax_fp16.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 5/CAD/CA/CA1/src/argmax_fp16.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module argmax_fp16
+
+Top level modules:
+	argmax_fp16
+
+} {} {}} {E:/Archive/Simister 5/CAD/CA/CA1/src/image_rom.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 5/CAD/CA/CA1/src/image_rom.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module image_rom
+
+Top level modules:
+	image_rom
+
+} {} {}} {E:/Archive/Simister 5/CAD/CA/CA1/src/fsm_controller.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 5/CAD/CA/CA1/src/fsm_controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fsm_controller
+
+Top level modules:
+	fsm_controller
+
+} {} {}} {E:/Archive/Simister 5/CAD/CA/CA1/src/sram.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 5/CAD/CA/CA1/src/sram.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sram
+
+Top level modules:
+	sram
+
+} {} {}}

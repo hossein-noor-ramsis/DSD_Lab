@@ -6,11 +6,11 @@ module function_generator_top (
     input [4:0] PI,
     input [2:0] func,
     input [1:0] ampsel,
-    
+
     output [7:0] wave_out
 );
 
-  wire div_clk;
+  wire clk_en;
   wire [7:0] raw_wave;
 
   frequency_selector FREQ (
@@ -18,12 +18,13 @@ module function_generator_top (
       .rst(rst),
       .init(init),
       .PI(PI),
-      .out_clk(div_clk)
+      .clk_en(clk_en)
   );
 
   waveform_generator WAVE (
-      .clk (div_clk),
-      .rst (rst),
+      .clk(clk),
+      .clk_en(clk_en),
+      .rst(rst),
       .func(func),
       .wave(raw_wave)
   );

@@ -1,1 +1,79 @@
+{E:/Archive/Simister 4/DSD Lab/04/src/DDS.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/04/src/DDS.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DDS
 
+Top level modules:
+	DDS
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/04/tb/tb_function_generator.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/04/tb/tb_function_generator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_function_generator
+
+Top level modules:
+	tb_function_generator
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/04/simulation/modelsim/function_generator_top_post.vo} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/04/simulation/modelsim/function_generator_top_post.vo}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module function_generator_top_post
+-- Compiling module hard_block
+
+Top level modules:
+	function_generator_top_post
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/04/tb/tb_function_generator_post.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/04/tb/tb_function_generator_post.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_function_generator_post
+
+Top level modules:
+	tb_function_generator_post
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/04/tb/tb_frequency_test.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/04/tb/tb_frequency_test.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_frequency_test
+
+Top level modules:
+	tb_frequency_test
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/04/tb/tb_waveform_generator.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/04/tb/tb_waveform_generator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_waveform_generator
+
+Top level modules:
+	tb_waveform_generator
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/04/src/sine_rom.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/04/src/sine_rom.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sine_rom
+
+Top level modules:
+	sine_rom
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/04/src/waveform_generator.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/04/src/waveform_generator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module waveform_generator
+
+Top level modules:
+	waveform_generator
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/04/src/amplitude_selector.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/04/src/amplitude_selector.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module amplitude_selector
+
+Top level modules:
+	amplitude_selector
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/04/src/function_generator_top.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/04/src/function_generator_top.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module function_generator_top
+
+Top level modules:
+	function_generator_top
+
+} {} {}} {E:/Archive/Simister 4/DSD Lab/04/src/frequency_selector.v} {1 {vlog -work work -stats=none {E:/Archive/Simister 4/DSD Lab/04/src/frequency_selector.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module frequency_selector
+
+Top level modules:
+	frequency_selector
+
+} {} {}}
